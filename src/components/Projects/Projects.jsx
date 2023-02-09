@@ -208,7 +208,7 @@ const Projects = () => {
                             <i className="uil uil-times projects__modal-close" onClick={() => { toggleValue(0) }}></i>
 
                             <h3 className="projects__modal-title">Calculator</h3>
-                            <p className="projects__modal-description">This a a basic Arithematic Calcultor built using ReactJS.This calculator takes a user input and displays the result after the arithematic calculation </p>
+                            <p className="projects__modal-description">This a a basic Arithmatic Calculator built using ReactJS.This calculator takes a user input and displays the result after the arithmatic calculation </p>
 
                             <ul className="projects__modal-projects grid">
                                 <li className="projects__modal-project">

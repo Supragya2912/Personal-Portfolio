@@ -16,7 +16,7 @@ const About = () => {
 
                     I am a tech enthusiast, always trying to learn new technologies and apply them to build pet projects of my own. During my engineering days, I have learnt building responsive web apps using React and Redux; I have also learnt and used MySQL and PostgreSQL for backend applications and exploratory data analytics.</p>
 
-                    <a download ="" className="button button--flex">Download CV</a>
+                    <a download href="src/assets/Supragya_Anand.pdf" className="button button--flex">Download CV</a>
                     </div>
 
 

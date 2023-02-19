@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Skills from './components/skills/Skills';
 import  Projects  from './components/Projects/Projects';
 import Photos from './components/Photos/Photos';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Skills/>
       <Projects/>
       <Photos/>
+      <Contact/>
     </main>
     </>
   );

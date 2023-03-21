@@ -34,11 +34,13 @@ const Qualification = () => {
 
                 <div className="qualification__sections">
                     <div className={toggleSwitch === 1 ? "qualification__content qualification__content-active" : "qualification__content"}>
-                        <div className="qualification__data">
+                        <div className="qualification__data" style={{ textAlign: 'right' }}>
+
+
                             <div>
-                                <h3 className="qualification__title">Web Designer</h3>
+                                <h3 className="qualification__title">B.Tech</h3>
                                 <span className="qualification__subtitle">
-                                    SRM IST
+                                    SRM IST Delhi-NCR ,Ghaziabad
                                 </span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calender-alt">2020- Present</i>
@@ -49,6 +51,7 @@ const Qualification = () => {
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
                             </div>
+
                         </div>
 
 
@@ -57,15 +60,15 @@ const Qualification = () => {
 
                             <div>
                                 <span className="qualification__rounder"></span>
-                                <span className="qualificaiton__line"></span>
+                                <span className="qualification__line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification__title">12th</h3>
+                                <h3 className="qualification__title">12th CBSE</h3>
                                 <span className="qualification__subtitle">
-                                    Shivjoti School
+                                    Shivjoti School ,Kota
                                 </span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calender-alt">2018-20</i>
+                                    <i className="uil uil-calender-alt">2020</i>
                                 </div>
                             </div>
                         </div>
@@ -76,15 +79,15 @@ const Qualification = () => {
 
                             <div>
                                 <span className="qualification__rounder"></span>
-                                <span className="qualificaiton__line"></span>
+                                <span className="qualification__line"></span>
                             </div>
                             <div>
-                                <h3 className="qualification__title">10th</h3>
+                                <h3 className="qualification__title">10th ICSE</h3>
                                 <span className="qualification__subtitle">
-                                    Mount Assisi School
+                                    Mount Assisi School , Bhagalpur
                                 </span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calender-alt">2018 </i>
+                                    <i className="uil uil-calender-alt">2018</i>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +96,7 @@ const Qualification = () => {
 
 
                     <div className={toggleSwitch === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
-                        <div className="qualification__data">
+                        <div className="qualification__data" style={{ textAlign: 'right' }}>
                             <div>
                                 <h3 className="qualification__title">Phyfarm</h3>
                                 <span className="qualification__subtitle">

@@ -7,6 +7,8 @@ import Skills from './components/skills/Skills';
 import  Projects  from './components/Projects/Projects';
 import Photos from './components/Photos/Photos';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import ScrollUp from './components/ScrollUp/ScrollUp';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Photos/>
       <Contact/>
     </main>
+    <Footer/>
+    <ScrollUp/>
     </>
   );
 }

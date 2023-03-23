@@ -17,13 +17,14 @@
 }
 
 .photos__description{
-    
+
     margin-top: 150px;
     font-size: var(--small-font-size);
 }
 
 .swiper-pagination-bullet{
     background-color: var(--text-color) !important;
+    margin: 0 5px;
 }
 
 .swiper-pagination-bullet-active{

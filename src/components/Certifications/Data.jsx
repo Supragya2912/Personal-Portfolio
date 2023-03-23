@@ -45,6 +45,6 @@ export const Data = [
         id: 5,
         image: Version_Control,
         title: "Version Control",
-        description: "This is a version control certification regarding the concepts of git and github."
+        description: "This is a version control certification regarding the concepts of git and Github."
     }
 ]

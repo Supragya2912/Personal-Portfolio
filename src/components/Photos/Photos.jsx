@@ -9,6 +9,8 @@ import { Pagination } from "swiper";
 
 
 const Photos = () => {
+
+
     return (
         <section className="photos container section" id="photos">
             <h2 className="section__title">Photography</h2>
@@ -40,6 +42,7 @@ const Photos = () => {
                         </SwiperSlide>
                     )
                 })}
+               
             </Swiper>
         </section >
     )

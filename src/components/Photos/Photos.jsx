@@ -17,7 +17,7 @@ const Photos = () => {
             <Swiper className="photos__container"
                 loop={true}
                 grabCursor={true}
-                spaceBetween={24}
+                spaceBetween={125}
                 pagination={{
                     clickable: true,
                 }}
@@ -36,9 +36,7 @@ const Photos = () => {
                     return (
                         <SwiperSlide className="phtotos__card" key={id}>
                             <img src={image} alt="" className="photos__img" />
-
-                            {/* <h3 className="phtotos__name">{title}</h3> */}
-                            <p className="phtotos__description">{description}</p>
+                            <p className="photos__description">{description}</p>
                         </SwiperSlide>
                     )
                 })}

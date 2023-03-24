@@ -54,6 +54,21 @@ const Header = () => {
                             </a>
                         </li>
 
+                        <li className="nav__item">
+                            <a href="#qualification"  onClick={() => setActiveNav('#qualification')}
+                                className={activeNav === "#qualification" ? "nav__link active-link" : "nav__link"}>
+                                <i className="uil uil-briefcase-alt nav__icon"></i> Qualification
+                            </a>
+                        </li>
+
+
+                        <li className="nav__item">
+                            <a href="#certifications"  onClick={() => setActiveNav('#certifications')}
+                                className={activeNav === "#certifications" ? "nav__link active-link" : "nav__link"}>
+                                <i className="uil uil-camera-change nav__icon"></i> Certificates
+                            </a>
+                        </li>
+
 
                         <li className="nav__item">
                             <a href="#photos"  onClick={() => setActiveNav('#photos')}
@@ -61,6 +76,7 @@ const Header = () => {
                                 <i className="uil uil-camera-change nav__icon"></i> Photos
                             </a>
                         </li>
+
 
                         <li className="nav__item">
                             <a href="#contact"  onClick={() => setActiveNav('#contact')}

@@ -40,13 +40,13 @@ export const PhotoData = [
         id: 5,
         image: Joshimath_sunrise,
         description:
-        "The sunrise piercing through the cloud to show its potential. A morning sunrise shot taken at Joshimath, Uttrakhand."
+        "The sunrays piercing through the cloud to show its potential. A morning sunrise shot taken at Joshimath, Uttrakhand."
     },
     {
         id: 6,
         image: Andaman,
         description:
-        "This is the best click I took. The view was mesmerizing. With flight hovering over Port Blair I took the shot."
+        "This is the best shot I took. The view was mesmerizing. With flight hovering over Port Blair I took the shot."
     },
     {
         id: 7,

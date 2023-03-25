@@ -16,7 +16,6 @@ const Certifications = () => {
 
               <img src={image} alt="" className="certificate__image" />
               <h3 className="certificate__title">{title}</h3>
-              <p className="certificate__description">{description}</p>
 
               </div>
           )

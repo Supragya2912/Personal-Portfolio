@@ -34,11 +34,11 @@ const Photos = () => {
                 }}
                 modules={[Pagination]}>
 
-                {PhotoData.map(({ id, image, description }) => {
+                {PhotoData.map(({ id, image,title}) => {
                     return (
                         <SwiperSlide className="phtotos__card" key={id}>
                             <img src={image} alt="" className="photos__img" />
-                            <p className="photos__description">{description}</p>
+                            <h3 style={{textAlign: 'center'}}className="photos__title">{title}</h3>
                         </SwiperSlide>
                     )
                 })}

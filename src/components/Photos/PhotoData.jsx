@@ -13,64 +13,73 @@ export const PhotoData = [
     {
         id: 1,
         image: Birds,
-        title: "Flock of Birds",
-        description:
-        "This pic was a sudden click. Shot this picture when I visited Gulmarg, Kashmir"
+        title: "Gulmarg , Kashmir",
+        // description:
+        // "This pic was a sudden click. Shot this picture when I visited Gulmarg, Kashmir"
     },
     {
         id: 2,
         image: Diya,
-        title: "Sunrise lits up Diya",
-        description:
-        "After diwali shot. Bhagalpur,Bihar"
+        title: "Bhagalpur , Bihar",
+        // description:
+        // "After diwali shot. Bhagalpur,Bihar"
     },
     {
         id: 3,
         image: College_sunset,
-        description:
-        "The sunsets are always beautiful. But capturing one them between the two buildings was quite a tough task."
+        title: "SRM , Ghaziabad",
+        // description:
+        // "The sunsets are always beautiful. But capturing one them between the two buildings was quite a tough task."
     },
     {
         id: 4,
         image: Joshimath_Cloud,
-        description:
-        "Evening shot of the mountains and the cloud willing to cover them. This evening shot is from Joshimath, Uttrakhand."
+        title: "Joshimath , Uttrakhand",
+        // description:
+        // "Evening shot of the mountains and the cloud willing to cover them. This evening shot is from Joshimath, Uttrakhand."
     },
     {
         id: 5,
         image: Joshimath_sunrise,
-        description:
-        "The sunrays piercing through the cloud to show its potential. A morning sunrise shot taken at Joshimath, Uttrakhand."
+        title: "Joshimath , Uttrakhand",
+        // description:
+        // "The sunrays piercing through the cloud to show its potential. A morning sunrise shot taken at Joshimath, Uttrakhand."
     },
     {
         id: 6,
         image: Andaman,
-        description:
-        "This is the best shot I took. The view was mesmerizing. With flight hovering over Port Blair I took the shot."
+        title: "Port Blair , Andaman Nicobar Islands",
+        // description:
+        // "This is the best shot I took. The view was mesmerizing. With flight hovering over Port Blair I took the shot."
     },
     {
         id: 7,
         image: Rack,
-        description:
-        "This pic is for artists to sketch it down. A low light still shot."
+        title: "Gurgaon , Haryana",
+        // description:
+        // "This pic is for artists to sketch it down. A low light still shot."
     },
     {
         id: 8,
         image: SRM_tree,
-        description:
-        "This evening shot is quite beautiful. I dont have idea how many years old the tree is but the beauty of this one in evening is amazing. This shot is from Ghaziabad."
+        title: "SRM IST ,Ghaziabad",
+        // description:
+        // "This evening shot is quite beautiful. I dont have idea how many years old the tree is but the beauty of this one in evening is amazing. This shot is from Ghaziabad."
     },
     {
         id: 9,
         image: SRM_rain,
-        description:
-        " Rain poured all over the day.Though it was quite dark but got a sort of perfect shot."
+        title: "SRM IST ,Ghaziabad",
+
+        // description:
+        // " Rain poured all over the day.Though it was quite dark but got a sort of perfect shot."
     },
     {
         id: 10,
         image: SRM,
-        description:
-        "This place has uncountable memories being built. Few more years but it will remain etched close to my heart. SRM IST Ghaziabad."
+        title: "SRM IST ,Ghaziabad",
+        // description:
+        // "This place has uncountable memories being built. Few more years but it will remain etched close to my heart. SRM IST Ghaziabad."
     }
 
 

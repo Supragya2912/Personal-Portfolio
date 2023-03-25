@@ -15,29 +15,26 @@
 
 
  img {
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
+    width: 100%;
+    height: 270px;
+   object-fit: contain;
     transition: transform 0.2s;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
   }
 
-  img:hover {
+  /* img:hover {
     transform: scale(1.2);
-  }
+  } */
 
 
   .certification__name {
     font-size: 1.2rem;
-    margin-top: 10px;
+    margin-top: 50px;
   }
 
-
-  .certification__description {
-    font-size: 1rem;
-    margin-top: 5px;
-    text-align: center;
-  }
 
   .certificate__title{
     margin-top: 10px;
+    text-align: center;
   }

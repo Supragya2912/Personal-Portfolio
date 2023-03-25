@@ -24,8 +24,9 @@
 
 .swiper-pagination-bullet{
     background-color: var(--text-color) !important;
-    margin: 0 5px;
+   
 }
+
 
 .swiper-pagination-bullet-active{
     background-color: var(--title-color) !important;

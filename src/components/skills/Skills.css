@@ -72,7 +72,11 @@
     
 }
 
-@media  screen and (max-width: 350px) {
+@media  screen and (max-width: 480px) {
+
+    .skills__content{
+        width: 100%;
+    }
     .skills__box{
         column-gap: 1.25rem
     }

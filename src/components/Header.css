@@ -57,6 +57,7 @@
 
 
 @media screen and (max-width: 768px) {
+
     .header{
         top: initial;
         bottom: 0;
@@ -65,6 +66,7 @@
     .nav {
         height: var(--header-height);
     }
+
     
     .nav__menu {
         position: fixed;
@@ -88,11 +90,14 @@
 
     .nav__list {
         display: grid;
+        border-radius: 10px;
+        background-color: #212121;
         grid-template-columns: repeat(3 , 1fr);
         gap: 2rem;
     }
 
     .nav__icon{
+        display: block;
         font-size: 1.2rem;
     }
 
@@ -120,12 +125,16 @@
     }
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 480px){
     .nav__menu{
         padding: 2rem 0.25rem 4rem;
     }
 
     .nav__list {
         column-gap: 0;
+    }
+    .nav {
+padding: 20;
+
     }
 }

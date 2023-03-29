@@ -65,7 +65,7 @@ const Qualification = () => {
                             <div>
                                 <h3 className="qualification__title">12th CBSE</h3>
                                 <span className="qualification__subtitle">
-                                    Shivjoti School ,Kota
+                                    Shivjyoti Senior Secondary School ,Kota
                                 </span>
                                 <div className="qualification__calender">
                                     <i className="uil uil-calender-alt">2020</i>

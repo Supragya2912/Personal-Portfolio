@@ -12,13 +12,16 @@ const About = () => {
             <div className="about__container container grid">
 
                 <div className="about__data">
+                   
                     <Info />
-                <p className="about__description">I am a third year grad at SRM Institute of Science and Technology pursuing my B-Tech in the branch of Computer Science and Engineering with Specialization in Cloud Computing.
+                  
+                  
+                    <p className="about__description">I am a third year grad at SRM Institute of Science and Technology pursuing my B-Tech in the branch of Computer Science and Engineering with Specialization in Cloud Computing.
 
-                    I am a tech enthusiast, always trying to learn new technologies and apply them to build pet projects of my own. During my engineering days, I have learnt building responsive web apps using React and Redux; I have also learnt and used MySQL and PostgreSQL for backend applications and exploratory data analytics.</p>
+                        I am a tech enthusiast, always trying to learn new technologies and apply them to build pet projects of my own. During my engineering days, I have learnt building responsive web apps using React and Redux; I have also learnt and used MySQL and PostgreSQL for backend applications and exploratory data analytics.</p>
 
                     <a download href={CV} target="__blank" className="button button--flex">Download CV</a>
-                    </div>
+                </div>
 
 
             </div>

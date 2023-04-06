@@ -149,7 +149,7 @@ const Projects = () => {
                 </div>
 
 
-                <div className="projects__content">
+                {/* <div className="projects__content">
                     <div>
                         <h3 className="projects__title">Shopping App</h3>
                     </div>
@@ -201,7 +201,7 @@ const Projects = () => {
                         <h3 className="projects__title">Calculator</h3>
                     </div>
 
-                    <span className="projects__button" onClick={() => { toggleValue(4) }}>View <i className="uil uil-arrow-right projects__button-icon"></i></span>
+                    <span className="projects__button" onClick={() => { toggleValue(5) }}>View <i className="uil uil-arrow-right projects__button-icon"></i></span>
 
                     <div className={toggleSwitch === 4 ? "projects__modal active-modal" : "projects__modal"}>
                         <div className="projects__modal-content">
@@ -228,16 +228,16 @@ const Projects = () => {
                             <ul className="projects__modal-projects grid">
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <a href='https://github.com/Supragya2912/YouTube-Clone' target="_blank">Source Code</a>
+                                    <a href='https://github.com/Supragya2912/Calculator' target="_blank">Source Code</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="projects__content">
                     <div>
-                        <h3 className="projects__title">Attendance Calculator</h3>
+                        <h3 className="projects__title">Calculator</h3>
                     </div>
 
                     <span className="projects__button" onClick={() => { toggleValue(4) }}>View<i className="uil uil-arrow-right projects__button-icon"></i></span>
@@ -246,28 +246,20 @@ const Projects = () => {
                         <div className="projects__modal-content">
                             <i className="uil uil-times projects__modal-close" onClick={() => { toggleValue(0) }}></i>
 
-                            <h3 className="projects__modal-title">Attendance Calculator</h3>
-                            <p className="projects__modal-description">This project is group based. This calculator calculates the number of classes a student has to attend in each subject to maintain 75% </p>
+                            <h3 className="projects__modal-title">Calculator</h3>
+                            <p className="projects__modal-description">This a a basic Arithmatic Calculator built using ReactJS.This calculator takes a user input and displays the result after the arithmatic calculation .</p>
 
                             <ul className="projects__modal-projects grid">
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Designing of the Webpage</p>
+                                    <p className="services__modal-info">ReactJS component architecture</p>
                                 </li>
                             </ul>
 
                             <ul className="projects__modal-projects grid">
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Vanilla JavaScript for the logic of the program</p>
-
-                                </li>
-                            </ul>
-
-                            <ul className="projects__modal-projects grid">
-                                <li className="projects__modal-project">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">This is a on-going project</p>
+                                    <p className="services__modal-info">Basic logic building over arithematic calculation</p>
 
                                 </li>
                             </ul>
@@ -275,14 +267,112 @@ const Projects = () => {
                             <ul className="projects__modal-projects grid">
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <a href='https://github.com/Supragya2912/YouTube-Clone' target="_blank">Source Code</a>
+                                    <a href='https://github.com/Supragya2912/Calculator' target="_blank">Source Code</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                
+
+                <div className="projects__content">
+                    <div>
+                        <h3 className="projects__title">Parallax-Background</h3>
+                    </div>
+
+                    <span className="projects__button" onClick={() => { toggleValue(5) }}>View<i className="uil uil-arrow-right projects__button-icon"></i></span>
+
+                    <div className={toggleSwitch === 5 ? "projects__modal active-modal" : "projects__modal"}>
+                        <div className="projects__modal-content">
+                            <i className="uil uil-times projects__modal-close" onClick={() => { toggleValue(0) }}></i>
+
+                            <h3 className="projects__modal-title">Parallax Background</h3>
+                            <p className="projects__modal-description">This is a learning codebase for Game Development using JavaScript.</p>
+
+                            <ul className="projects__modal-projects grid">
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <p className="services__modal-info">This creates the gaming environment using JavaScript</p>
+                                </li>
+                            </ul>
+
+                            <ul className="projects__modal-projects grid">
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <p className="services__modal-info">This has screen movement which is popular in gaming environment</p>
+
+                                </li>
+                            </ul>
+                            <ul className="projects__modal-projects grid">
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <p className="services__modal-info">This is an ongoing project</p>
+
+                                </li>
+                            </ul>
+                            <ul className="projects__modal-projects grid">
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <a href='https://github.com/Supragya2912/Parallax-Background' target="_blank">Source Code</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="projects__content">
+                    <div>
+                        <h3 className="projects__title">Spotify Clone</h3>
+                    </div>
+
+                    <span className="projects__button" onClick={() => { toggleValue(6) }}>View<i className="uil uil-arrow-right projects__button-icon"></i></span>
+
+                    <div className={toggleSwitch === 6 ? "projects__modal active-modal" : "projects__modal"}>
+                        <div className="projects__modal-content">
+                            <i className="uil uil-times projects__modal-close" onClick={() => { toggleValue(0) }}></i>
+
+                            <h3 className="projects__modal-title">Spotify Clone</h3>
+                            <p className="projects__modal-description">This is a simple arithematic calculator made using React Js.</p>
+
+                            <ul className="projects__modal-projects grid">
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <p className="services__modal-info">Designing of the Spotify like UI</p>
+                                </li>
+                            </ul>
+
+                            <ul className="projects__modal-projects grid">
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <p className="services__modal-info">Authentication using Spotify JS</p>
+
+                                </li>
+                            </ul>
+
+                            <ul className="projects__modal-projects grid">
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <p className="services__modal-info">API integration using Spotify API</p>
+
+                                </li>
+                            </ul>
+                            <ul className="projects__modal-projects grid">
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <p className="services__modal-info">This is an ongoing project</p>
+
+                                </li>
+                            </ul>
+                            <ul className="projects__modal-projects grid">
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <a href='https://github.com/Supragya2912/Spotify-Clone' target="_blank">Source Code</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     )

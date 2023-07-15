@@ -16,7 +16,7 @@ const Projects = () => {
             <div className="projects__container container grid">
                 <div className="projects__content">
                     <div>
-                        <h3 className="projects__title">Sign-Up Form</h3>
+                        <h3 className="projects__title">FoodieFlix</h3>
                     </div>
 
                     <span className="projects__button" onClick={() => { toggleValue(1) }}>View <i className="uil uil-arrow-right projects__button-icon"></i></span>
@@ -24,20 +24,34 @@ const Projects = () => {
                     <div className={toggleSwitch === 1 ? "projects__modal active-modal" : "projects__modal"}>
                         <div className="projects__modal-content">
                             <i className="uil uil-times projects__modal-close" onClick={() => { toggleValue(0) }}></i>
-                            <h3 className="projects__modal-title">Sign-Up Form</h3>
-                            <p className="projects__modal-description">This is a basic Sign Up Form made using Vanilla JavaScript and HTML CSS.</p>
+                            <h3 className="projects__modal-title">FoodieFlix</h3>
+                            <p className="projects__modal-description">This is a MERN stack app which has allows user to order food online. The app uses React as client side handling and server side is handled with Express alongwith MongoDB as database</p>
 
                             <ul className="projects__modal-projects grid">
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">A basic form which takes inputs</p>
+                                    <p className="services__modal-info">React UI development</p>
                                 </li>
                             </ul>
 
                             <ul className="projects__modal-projects grid">
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Designing using Bootstrap</p>
+                                    <p className="services__modal-info">Handling Server Side using Node JS</p>
+                                </li>
+                            </ul>
+
+                            <ul className="projects__modal-projects grid">
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <p className="services__modal-info">Authentication using JWT and Bycrpt Js</p>
+                                </li>
+                            </ul>
+
+                            <ul className="projects__modal-projects grid">
+                                <li className="projects__modal-project">
+                                    <i className="uil uil-check-circle services__modal-icon"></i>
+                                    <p className="services__modal-info">Connecting Mongo DB to server and client</p>
                                 </li>
                             </ul>
 
@@ -323,7 +337,7 @@ const Projects = () => {
 
                 <div className="projects__content">
                     <div>
-                        <h3 className="projects__title">Spotify Clone</h3>
+                        <h3 className="projects__title">Online Music Player</h3>
                     </div>
 
                     <span className="projects__button" onClick={() => { toggleValue(6) }}>View<i className="uil uil-arrow-right projects__button-icon"></i></span>
@@ -332,13 +346,13 @@ const Projects = () => {
                         <div className="projects__modal-content">
                             <i className="uil uil-times projects__modal-close" onClick={() => { toggleValue(0) }}></i>
 
-                            <h3 className="projects__modal-title">Spotify Clone</h3>
-                            <p className="projects__modal-description">This is a simple arithematic calculator made using React Js.</p>
+                            <h3 className="projects__modal-title">Online Music Player</h3>
+                            <p className="projects__modal-description">This is a Music Player created using API integration.</p>
 
                             <ul className="projects__modal-projects grid">
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">Designing of the Spotify like UI</p>
+                                    <p className="services__modal-info">Designing of the Music Player UI</p>
                                 </li>
                             </ul>
 
@@ -353,17 +367,11 @@ const Projects = () => {
                             <ul className="projects__modal-projects grid">
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">API integration using Spotify API</p>
+                                    <p className="services__modal-info">API integration to list songs, liked songs and artists</p>
 
                                 </li>
                             </ul>
-                            <ul className="projects__modal-projects grid">
-                                <li className="projects__modal-project">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">This is an ongoing project</p>
-
-                                </li>
-                            </ul>
+                        
                             <ul className="projects__modal-projects grid">
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle services__modal-icon"></i>

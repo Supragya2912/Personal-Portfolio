@@ -58,7 +58,7 @@ const Projects = () => {
                             <ul className="projects__modal-projects grid">
                                 <li className="projects__modal-project">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <a href='https://github.com/Supragya2912/SignUpForm' target="_blank">Source Code</a>
+                                    <a href='https://github.com/Supragya2912/FoodieFlix' target="_blank">Source Code</a>
                                 </li>
                             </ul>
 

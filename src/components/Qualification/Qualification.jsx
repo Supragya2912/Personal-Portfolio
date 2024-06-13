@@ -96,14 +96,37 @@ const Qualification = () => {
 
 
                     <div className={toggleSwitch === 2 ? "qualification__content qualification__content-active" : "qualification__content"}>
+
+                        <div className="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 className="qualification__title">Phyfarm</h3>
+                                <span className="qualification__subtitle">
+                                    Full-Stack Developer
+                                </span>
+                                <div className="qualification__calender">
+                                    <i className="uil uil-calender-alt">Oct'23 - Present</i>
+                                </div>
+                            </div>
+                        </div>
+
+
                         <div className="qualification__data" style={{ textAlign: 'right' }}>
                             <div>
                                 <h3 className="qualification__title">Phyfarm</h3>
                                 <span className="qualification__subtitle">
                                     Front-end Developer
                                 </span>
+                                <span className="qualification__subtitle">
+                                    (Internship)
+                                </span>
                                 <div className="qualification__calender">
-                                    <i className="uil uil-calender-alt">2022-Present</i>
+                                    <i className="uil uil-calender-alt">Dec'22 - Sept'23 </i>
                                 </div>
                             </div>
 

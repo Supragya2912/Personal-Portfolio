@@ -16,10 +16,9 @@ const About = () => {
                     <Info />
 
 
-                    <p className="about__description">I am a final year student at SRM Institute of Science and Technology, specializing in Cloud Computing. As a tech enthusiast, I have
-                        experience as a Frontend Engineer, utilizing React and Redux for an AgriTech startup. Proficient in Node.js, Express.js, PostgreSQL,
-                        and MongoDB, I have built pet projects. Additionally, I actively practice algorithms and data structures on HackerRank and
-                        LeetCode, solving over 100 problems on HackerRank and 30+ on LeetCode.</p>
+                    <p className="about__description">Passionate FullStack Developer with 1 year of experience in building dynamic web applications using React, NodeJS, and GoLang. Skilled
+                        in creating interactive frontends, responsive designs, and utilizing MySQL, PostgreSQL, and MongoDB for backend development.
+                        Committed to solving complex challenges and continuously learning new technologies.</p>
 
                     <a download href={CV} target="__blank" className="button button--flex">Download CV</a>
                 </div>

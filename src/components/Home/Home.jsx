@@ -4,6 +4,8 @@ import Social from './Social';
 import Data from './Data';
 
 const Home = () => {
+
+ 
   return (
     <section className="home section" id="home">
         <div className="home__contianer container grid">
